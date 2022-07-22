@@ -1,0 +1,33 @@
+.staticBannerContainer {
+    position: relative;
+    display: flex;
+    background: #fff url(/banners/banner_Bg.png) top center no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    align-items: center;
+}
+
+.staticBannerContainer .textBox {
+    position: absolute;
+    bottom: 8.6rem;
+}
+
+.staticBannerContainer .textBox h1 {
+    font-size: 85px;
+    color: #0a58ca;
+    font-weight: 800;
+}
+
+.staticBannerContainer .textBox h3,
+.staticBannerContainer .textBox h2 {
+    font-size: 56px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.staticBannerContainer .textBox h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #717171;
+}

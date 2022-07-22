@@ -1,0 +1,37 @@
+.Form_Home {
+    background: #eee url(/bg/FORM_BG.svg) no-repeat;
+    height: 100%;
+    margin-bottom: 2rem;
+    background-size: contain;
+}
+
+.frm_Bg_lft {
+    height: 100%;
+}
+
+.Form_Home label {
+    display: none;
+}
+
+.frm_Rgt {
+    /* background: rgba(214, 227, 251, 0.8); */
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    padding: 3rem;
+    height: 99vh;
+}
+
+.frm_Rgt h4 {
+    color: #333;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.frm_Rgt .custm_control {
+    min-height: 60px;
+}
+
+.frm_Rgt .contactBtn {
+    width: 100%;
+}

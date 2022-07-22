@@ -1,0 +1,165 @@
+/************ COUNTRY Section START *******************/
+
+.CountryContainer {
+    background: rgb(255 255 255 / 18%) url(/bg/bg_Map.png) top center no-repeat;
+    padding: 8.5rem 0 7.5rem 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fourCard01 {
+    background-color: #fff;
+    padding: 4rem 0 2rem;
+    position: relative;
+}
+
+.hdingBox {
+    text-align: center;
+    color: #4E4E4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 294px;
+    background: url(/bg/COUNTRIES.png) center center no-repeat, url(/bg/spiral_RHS.png) bottom right no-repeat;
+}
+
+.box_01 .countryImage1 {
+    background: url(/country/usa.png) no-repeat;
+    background-size: cover;
+}
+
+.box_02 .countryImage1 {
+    background: url(/country/uk.png) no-repeat;
+    background-size: cover;
+}
+
+.box_03 .countryImage1 {
+    background: url(/country/germany.png) no-repeat;
+    background-size: cover;
+}
+
+.box_04 .countryImage1 {
+    background: url(/country/canada.png) no-repeat;
+    background-size: cover;
+}
+
+.box_05 .countryImage1 {
+    background: url(/country/austrliya.png) no-repeat;
+    background-size: cover;
+}
+
+.box_06 .countryImage1 {
+    background: url(/country/irland.png) no-repeat;
+    background-size: cover;
+}
+
+.ContAccordian {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.glBox {
+    width: 19%;
+    height: 400px;
+    position: relative;
+    border-radius: 1px;
+    overflow: hidden;
+    transition: ease-in-out 0.8s;
+    margin-right: 1%;
+}
+
+.choice {
+    position: absolute;
+    background: linear-gradient(357.18deg, #1159E5 0%, #689BFF 100%);
+    padding: 2rem;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    visibility: hidden;
+}
+
+.choice h4 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.glBox:hover .choice {
+    visibility: visible;
+    transition: width 0.9s;
+    font-family: arial;
+}
+
+.glBox:hover {
+    width: 47%;
+    transition: ease-in-out 0.5s;
+    border: #0d6efd 1px solid;
+}
+
+.glBox:hover h1 {
+    display: none;
+}
+
+.glBox:hover .choice {
+    width: 62vh;
+}
+
+.cardText {
+    width: 60vh;
+}
+
+.cardText {
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.cardText ul {
+    margin: 0;
+    padding: 1rem 0rem 1rem 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cardBody {
+    width: 55vh;
+}
+
+.cardText ul li {
+    width: 45%;
+    line-height: normal;
+    min-height: 45px;
+}
+
+.countryImg {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+
+.countryImg h1 {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    letter-spacing: 1px;
+}
+
+
+/************ COUNTRY Section END *******************/

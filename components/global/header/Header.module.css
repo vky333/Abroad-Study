@@ -1,0 +1,123 @@
+.headerContainer {
+    width: 100%;
+    position: relative;
+    top: 0rem;
+    z-index: 20;
+    background: #fff;
+    padding: 0 1rem;
+}
+
+.headerBox {
+    display: flex;
+}
+
+.abroadLogo {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.abroadLogo .logCom {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-18deg);
+    left: 6.5rem;
+    bottom: 0.5rem;
+    background-color: #0074d7;
+    color: #fff;
+    width: 25px;
+    font-size: 8px;
+    height: 25px;
+}
+
+.headerBtn {
+    margin-left: 2rem;
+}
+
+.headerBtn button {
+    padding: 0.2rem 1rem;
+}
+
+.headerNavBar {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.headerNavBar svg {
+    margin-right: 3px;
+    margin-top: -3px;
+}
+
+.menuTab {
+    margin-left: auto !important;
+}
+
+.headerContainer .logoSect {
+    border-right: #5E5E5E 1px solid;
+    padding-right: 2rem;
+}
+
+.menuTab a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    padding-bottom: 0 !important;
+}
+
+.login_main {
+    border-radius: 25px;
+}
+
+.login_main a {
+    padding-right: 0 !important;
+}
+
+.login_main:hover {
+    transition: ease-in-out 0.5s;
+}
+
+.headerContainer .navbar-light .navbar-nav .text-white .nav-link:focus,
+.headerContainer .navbar-light .navbar-nav .text-white .nav-link:hover {
+    color: #fff !important;
+}
+
+@media(max-width:992px) {
+    .menuTab {
+        margin-left: auto !important;
+        border-radius: 3px;
+        width: 100%;
+        margin-right: inherit !important;
+        position: absolute;
+        right: 0;
+        left: 0;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+    }
+    .headerContainer {
+        top: 0;
+        background: #578efa;
+        position: relative;
+    }
+    .abroadLogo {
+        max-width: 45%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.1rem 0;
+    }
+    .abroadLogo .logCom {
+        bottom: 0rem;
+        width: 20px;
+        font-size: 5px;
+        height: 20px;
+        right: -5px;
+    }
+}
