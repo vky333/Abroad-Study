@@ -11,7 +11,7 @@ export const Header = () => {
       <header className={`${styles.headerContainer} pageHeader`}>
         <Navbar collapseOnSelect>
           <div className="container-fluid">
-            <Navbar.Brand href="#home" className={`${styles.logoSect}`}>
+            <Navbar.Brand href="/" className={`${styles.logoSect}`}>
               <Logo
                logoImg="/abroad-Logo.png" 
                />
@@ -19,11 +19,11 @@ export const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className={`${styles.menuTab} hderMenuTab`}>
-                <Link href="/">Home</Link>
-                <Link href="/">Talk with an Expert</Link>
-                <Link href="/">About Us</Link>
-                <Link href="/">Countries & Universities</Link>
-                <Link href="/">Contact Us</Link>
+                <Link href="/">Home</Link>              
+                <Link href="/about">About Us</Link>
+                <Link href="/countrie&university">Countries & Universities</Link>
+                <Link href="/team">Our Team</Link> 
+                
               </Nav>
             </Navbar.Collapse>
           </div>

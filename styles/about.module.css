@@ -1,0 +1,77 @@
+.aboutBanner {
+    width: 100%;
+}
+
+.aboutSection01 {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.aboutSection02 {
+    padding: 5rem 0 0 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.aboutContent {
+    background: rgba(0, 20, 58, 0.75);
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.aboutSection02 .sectionInner {
+    background-color: #D1D1D1;
+    padding: 5rem 0 2rem 0;
+}
+
+.App_Container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.appCircle {
+    text-align: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 565px;
+    width: 100%;
+}
+
+.comtTab {
+    width: 100%;
+    position: relative;
+    top: -1.5rem;
+    left: -1rem;
+}
+
+.tabBox {
+    background: linear-gradient(90deg, #0F58E5 -1.59%, #6C9BF6 109.97%);
+    border-radius: 46px;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.tabBox:last-child {
+    margin-bottom: 0;
+}
+
+.tabBoxTxt {
+    width: 70%;
+}
+
+.tabBox span {
+    width: 46px;
+    height: 46px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.25), inset -1px 0px 4px rgba(0, 0, 0, 0.13), inset 0px -5px 2px #FFFFFF;
+    margin-right: 1.3rem;
+    border-radius: 100px;
+}

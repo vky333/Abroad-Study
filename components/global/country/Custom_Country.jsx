@@ -14,6 +14,7 @@ export const Custom_Country = (props) => {
             className={`${styles.cardText}`}
             dangerouslySetInnerHTML={{ __html: props.InnerCountryContent }}
           />
+         <a href="/countrie&university" className={`${styles.anchor_Button} anchor_Button btn btn-primary`}>Continue</a>
         </div>
       </div>
     </>

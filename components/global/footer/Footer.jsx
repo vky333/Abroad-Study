@@ -31,11 +31,10 @@ export const Footer = () => {
                     <Col sm={3}>
                         <div className={styles.footer_list}>
                             <h5 className='text-white fw-bold mb-1'>Inside</h5>
-                            <Link href="/">Home</Link>
-                <Link href="/">Talk with an Expert</Link>
-                <Link href="/">About Us</Link>
-                <Link href="/">Countries & Universities</Link>
-                <Link href="/">Contact Us</Link>
+                            <Link href="/">Home</Link>              
+                <Link href="about">About Us</Link>
+                <Link href="contries">Countries & Universities</Link>
+                <Link href="team">Our Team</Link> 
                             
                         </div>
                     </Col>

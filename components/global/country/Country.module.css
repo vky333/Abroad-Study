@@ -130,10 +130,25 @@
     width: 55vh;
 }
 
+.anchor_Button {
+    color: #333;
+    background: linear-gradient(92.89deg, rgba(255, 255, 255, 0.41) 2.32%, rgba(255, 255, 255, 0.1804) 96.59%);
+    -webkit-backdrop-filter: blur(29px);
+    backdrop-filter: blur(29px);
+    border-radius: 82px;
+    font-weight: 500;
+    font-weight: 600;
+    padding: 0.4rem 1.5rem;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
 .cardText ul li {
     width: 45%;
     line-height: normal;
     min-height: 45px;
+    list-style: disc;
 }
 
 .countryImg {

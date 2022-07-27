@@ -1,0 +1,166 @@
+/***** Section 01 Start  *******/
+
+.countrySection01,
+.countrySection02,
+.countrySection03 {
+    padding-top: 4rem;
+    position: relative;
+}
+
+.countrySection01:before {
+    content: "";
+    min-width: 438px;
+    min-height: 436px;
+    background: url(/team/bg1.png) no-repeat;
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    z-index: -1;
+}
+
+.countrySection {
+    background: #EDEDED;
+    padding: 2rem 2rem 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CountryCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 0.5rem
+}
+
+.courntyName {
+    color: #fff;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.custRow {
+    flex-wrap: inherit;
+    padding-bottom: 1rem;
+}
+
+
+/***** Section 01 End  *******/
+
+
+/***** Section 02 Start  *******/
+
+.countrySection02 .courntyName {
+    display: none;
+}
+
+.countrySection02 .countrySection,
+.countrySection03 .countrySection {
+    background: none;
+    padding-top: 1rem;
+}
+
+.countrySection02 .CountryCard {
+    box-shadow: 1px 2px 9px -5px;
+    border-radius: 28px;
+    background: #ffffff;
+    overflow: hidden;
+    padding: 2.3rem 2rem;
+}
+
+
+/***** Section 02 End  *******/
+
+
+/***** Section 03 Start  *******/
+
+.countrySection03 {
+    padding-top: 2rem;
+}
+
+.countrySection03:after {
+    content: "";
+    min-width: 621px;
+    min-height: 618px;
+    background: url(/team/bg.png) no-repeat;
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    z-index: -1;
+}
+
+.courseName {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 23px;
+}
+
+.course01 {
+    background: #4B78EB;
+}
+
+.course02 {
+    background: #E8CF77;
+}
+
+.course03 {
+    background: #8FB3F9;
+}
+
+.course04 {
+    background: #8E6CEC;
+}
+
+.courseName h5 {
+    margin-bottom: 5px;
+}
+
+.courseName h6 {
+    margin-bottom: 0;
+}
+
+
+/***** Section 03 End  *******/
+
+
+/***** Section 04 Start  *******/
+
+.countrySection04 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.countrySection04 .textBox {
+    text-align: left;
+    position: absolute;
+    z-index: 73;
+    bottom: 10rem;
+    color: #fff;
+    left: 8%;
+}
+
+.btnConnect {
+    background: linear-gradient(92.89deg, rgba(255, 255, 255, 0.41) 2.32%, rgba(255, 255, 255, 0.1804) 96.59%);
+    backdrop-filter: blur(29px);
+    border-radius: 82px;
+    font-weight: 500;
+    font-size: 19px;
+    color: #fff;
+    min-width: 334px;
+    min-height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/***** Section 04 End  *******/

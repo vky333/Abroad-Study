@@ -1,0 +1,58 @@
+.hederSection {
+    padding: 5rem 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+h1.teamBanner {
+    font-weight: 700;
+    font-size: 7.3rem;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EDEDED;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.team_Card h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #343434;
+}
+
+.team_Card h5 {
+    font-weight: 275;
+    font-size: 23px;
+    color: #000000;
+}
+
+.team_Card {
+    text-align: center;
+    padding: 0 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.hederSection:before {
+    content: "";
+    min-width: 621px;
+    min-height: 618px;
+    background: url(/team/bg.png) no-repeat;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    z-index: -1;
+}
+
+.hederSection:after {
+    content: "";
+    min-width: 438px;
+    min-height: 436px;
+    background: url(/team/bg1.png) no-repeat;
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    z-index: -1;
+}

@@ -27,6 +27,10 @@ body ul {
 
 /******  Country Section Start ****/
 
+.navbar-expand {
+    padding: 0 !important;
+}
+
 .staticBannerContainer,
 .container,
 .row,
@@ -69,5 +73,115 @@ body ul {
     display: none;
 }
 
+.Form_Home {
+    background: #eee url(/bg/frm_bg.png) no-repeat;
+    height: 100%;
+    margin-bottom: 5rem;
+    background-size: cover;
+}
+
+.teamContainer .Form_Home {
+    background: #eee url(/team/frm-bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutContainer .Form_Home {
+    background: #eee url(/about/about_Bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.teamContainer .Form_Home:before,
+.aboutContainer .Form_Home:before {
+    content: "";
+    width: 70%;
+    min-height: 80px;
+    background: #F2F2F2;
+    border-radius: 51px 51px 0px 0px;
+    position: absolute;
+    z-index: 57;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -80px;
+}
+
+.hdingBox {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.largHeding {
+    font-weight: 700;
+    font-size: 145px;
+    color: #EDEDED;
+    width: 100%;
+    text-align: center;
+}
+
+.subHding {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 4;
+    align-items: center;
+    font-weight: 700;
+    color: #0F58E5;
+    font-size: 26px;
+    bottom: 0;
+    margin: auto;
+    max-height: 40px;
+}
+
 
 /******  Country Section Start ****/
+
+.coountryPagePop .modal-content {
+    max-width: 603px;
+    background: url(/country&university/pop_Bg.png);
+    background-blend-mode: multiply;
+    border-radius: 29px 29px 25px 24px;
+}
+
+.coountryPagePop .modal-header {
+    flex-direction: column;
+    position: relative;
+    padding: 1rem 0 0 0;
+    border-bottom: none;
+}
+
+.coountryPagePop .modal-header .btn-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    filter: invert(1);
+}
+
+.coountryPagePop .modal-body {
+    background: linear-gradient(163.46deg, rgba(255, 255, 255, 0.28) 24.13%, rgba(255, 255, 255, 0) 95.35%);
+    backdrop-filter: blur(81px);
+    border-radius: 29px 29px 26px 23px;
+    border-top: #fff 2px solid;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.coountryPagePop .btn-primary {
+    background: linear-gradient(92.89deg, rgba(255, 255, 255, 0.41) 2.32%, rgba(255, 255, 255, 0.1804) 96.59%);
+    backdrop-filter: blur(29px);
+    border-radius: 82px;
+    width: 63%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 19px;
+    justify-content: center;
+}
+
+.coountryPagePop .form-select,
+.coountryPagePop .form-control {
+    color: #757d85;
+}

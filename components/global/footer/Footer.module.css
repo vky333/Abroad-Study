@@ -1,6 +1,8 @@
 .footer_sec {
     background: #1159E5;
     padding-top: 3rem;
+    position: relative;
+    z-index: 3;
 }
 
 .footer_list {

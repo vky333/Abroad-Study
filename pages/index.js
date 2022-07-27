@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import StaticBanner  from "../components/global/banner/StaticBanner"
 import Country from "../components/global/country/Country"
 import { Journey } from '../components/global/journey/Journey'
-import Form_Home from '../components/global/form/Form_Home'
+import Form_Container from '../components/global/form/Form_Container'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
        <StaticBanner/>
        <Country/>
        <Journey/>
-       <Form_Home/>
+       <Form_Container/>
        <Footer/>
        
        
